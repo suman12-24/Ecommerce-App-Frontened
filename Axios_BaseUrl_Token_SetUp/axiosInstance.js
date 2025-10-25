@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { store } from '../redux/store';
 
-export const baseURL = 'https://fascinatetextiles.com';
+export const baseURL = 'Enter Your API URL ';
 
 
 const axiosInstance = axios.create({
@@ -39,3 +39,4 @@ axiosInstance.interceptors.request.use(
 );
 
 export default axiosInstance;
+
